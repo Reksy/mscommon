@@ -2,7 +2,15 @@ module github.com/Reksy/mscommon
 
 go 1.23.1
 
-require github.com/jackc/pgx/v5 v5.7.1
+require (
+	github.com/gojuno/minimock/v3 v3.4.2
+	github.com/jackc/pgx/v5 v5.7.1
+)
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+)
 
 require (
 	github.com/georgysavva/scany/v2 v2.1.3
